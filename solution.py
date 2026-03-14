@@ -8,7 +8,6 @@ from typing import List, Tuple
 
 Move = Tuple[int, int]
 
-
 class SmartPlayer(Player):
     def __init__(self, player_id: int):
         super().__init__(player_id)
